@@ -1,0 +1,28 @@
+//EX4 By NAME 
+#include "stdio.h"
+#include "conio.h"
+#include "stdlib.h"
+main()
+{
+	int magic= ; //กำหนดเลข
+	int quest ;
+	char name[80];
+	printf("\n\n\t\t What Your Name ? :");
+	scanf("%s",name);
+	printf("\n\n\t\t Please Enter answer"); //ให้ทายเลขที่ชอบ
+	printf("\n\n\t\t Number is = "); 
+	scanf("%d",&quest);
+	if(quest == magic) printf("\n\t\t >>>Very Good <<<< ");	
+	if(quest != magic) printf("\t\t --- Error --- ");
+	printf("\n\n\t\t Please Enter To Question Again ");	
+getch();
+	system("cls");
+		printf("\n\n\t\t Please Enter answer");
+	printf("\n\n\t\t  Number is = ");
+	scanf("%d",&quest);
+	if(quest == magic) printf("\n\t\t >>>Very Good <<<< ");	
+	if(quest != magic) printf("\t\t --- Error --- ");
+	printf("\n\n\t\t Thank You : %s",name);	
+getch();
+}
+
