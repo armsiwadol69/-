@@ -1,0 +1,125 @@
+# ตัวแปร = กำหนดเอง ใน 1 lab ห้ามซ้ำกันแม้แต้ตัวเดียว
+# Lab 1 
+'''Practice Problem1 Write Python algebraic expressions corresponding to the following statements:'''
+#(A) The sum of the first five positive integers จำนวนเต็มบวก 5 ตัวแรก
+print(1+2+3+4+5)
+#(B) The average age of Sara (age 23), Mark (age 19), and Fatima (age 31)
+คิดเอง
+#(C) The remainder when 403 is divided by 73
+print(403%73)
+#(D) 2 to 10th Power
+print(2**10)
+#(E) The lowest price among the following price: $34.99, $29.95, and $31.50
+print("$",min(34.99, 29.95,31.50))
+#(F) The absolute value of the difference between Sara’s height(54 inces) and Mark’s height(57 inches)
+
+#(G)The sum of 2 and 2 is less than 4
+ไม่แน่ใจ
+#(I) The sum of 2, 4 and 6 is greater than 12
+ไม่แน่ใจ
+#(J)The lowest price among $34.99, $29.95, and $31.50 is less than $30.00
+ตัวแปร = min(34.99,29.95,31.50)
+print("min is",minp)
+if ตัวแปร < 30.00 :
+    print("")
+else:
+    print("F")
+    
+'''Setting the Data Type'''
+#X = "Hello World"
+ตัวแปร = "Hello World"
+print(type(ตัวแปร))
+#X = 20
+ตัวแปร = 20
+print(type(ตัวแปร))
+#X = 20.5
+ตัวแปร = 20.5
+print(type(ตัวแปร))
+X = Ij
+ตัวแปร = 1j
+print(type(ตัวแปร))
+#X = [“apple”,”banana”,”cherry”]
+ตัวแปร = ["apple","banana","cherry"]
+print(type(ตัวแปร))
+#X = ("apple","banana","cherry")
+ตัวแปร = ("apple","banana","cherry")
+print(type(ตัวแปร))
+#X = range(6)
+ตัวแปร = range(6)
+print(type(ตัวแปร))
+#X = {"name":"John","age":36}
+ตัวแปร = {"name":"John","age":36}
+print(type(ตัวแปร))
+#X = frozenset({"apple","banana","cherry"})
+ตัวแปร = frozenset({"apple","banana","cherry"})
+print(type(ตัวแปร))
+#x=True
+ตัวแปร = True
+print(type(ตัวแปร))
+#X = B"Hello"
+ตัวแปร = b"hello"
+print(type(ตัวแปร))
+#X = bytearray(5)
+ตัวแปร = bytearray(5)
+print(type(ตัวแปร))
+#X = memoryview(bytes(5))
+ตัวแปร = memoryview(bytes(5))
+print(type(ตัวแปร))
+
+
+'''Setting the Specific Data Type'''
+#X = "Hello World"
+ตัวแปร = str("Hello World")
+print(type(xx1))
+#X = 20
+ตัวแปร = int(20)
+print(type(ตัวแปร))
+#X = float(20.5)
+ตัวแปร = float(20.5)
+print(type(ตัวแปร))
+#ตัวแปร X = Ij
+ตัวแปร = complex(1j)
+print(type(ตัวแปร))
+#X =list(([“apple”,”banana”,”cherry”))
+ตัวแปร = list(("apple","banana","cherry"))
+print(type(ตัวแปร))
+# X = tuple(("apple","banana","cherry"))
+ตัวแปร = tuple(("apple","banana","cherry"))
+print(type(ตัวแปร))
+#X = range(6)
+ตัวแปร = range(6)
+print(type(ตัวแปร))
+# X = dict("name":"John","age":36)
+ตัวแปร = dict(name="John",age=36)
+print(type(xx7))
+#ตัวแปร X = frozenset(("apple","banana","cherry"))
+ตัวแปร = frozenset(("apple","banana","cherry"))
+print(type(ตัวแปร))
+# x=bool(5)
+ตัวแปร = bool(5)
+print(type(ตัวแปร))
+# X = bytes(5)
+ตัวแปร = bytes(5)
+print(type(ตัวแปร))
+#X = bytearray(5)
+ตัวแปร = bytearray(5)
+print(type(ตัวแปร))
+# X = memoryview(bytes(5))
+ตัวแปร = memoryview(bytes(5))
+print(type(ตัวแปร))
+
+#Lab 2
+#ใช้ print(โจทย์) แต่ละข้อได้เลย
+#เช่น ข้อ 1 print(2<3) จะได้ค่าเป็น TRUE นั้นหมายความว่า "2 น้อยกว่า 3 เป็นจริง"
+
+#Lab 3
+'''Multi-line'''
+item_one = 50 #ตัวเลข
+item_two = 58.8 # เทศนิยม
+item_three = "Python is EASY " #ข้อความ
+item_four = "Very Much" #ข้อความ
+total = item_one ,\        #ประกาศให้ Total เรียงด้วย
+        item_two, \
+        item_three +\
+        item_four
+print(total)
