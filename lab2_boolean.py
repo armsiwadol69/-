@@ -1,4 +1,5 @@
 '''Lab 2 Boolean / Siwadol Malisorn DM6201 No.12 116210806017-6'''
+# DO NOT COPY IT ALL JUST TAKE A LOOK 
 '''Boolean Expressions and Operators'''
 #No.1 2 < 3 #True
 print(2<3)
