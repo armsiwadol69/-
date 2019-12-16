@@ -17,15 +17,3 @@ total = item_one ,\
         item_three +\
         item_four
 print(total)
-'''EX Multi-Line Statements'''
-item_one = 44 #Integer
-item_two = 1.12 # Floating point
-item_three = "3 Lab in One Day " #String
-item_four = "Send Before 00:00PM " #String
-item_five = "OMG"
-total2 = item_one ,\
-        item_two, \
-        item_three +\
-        item_four +\
-        item_five
-print(total2)
