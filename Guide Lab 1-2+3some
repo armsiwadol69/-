@@ -10,7 +10,7 @@ print(403%73)
 #(D) 2 to 10th Power
 print(2**10)
 #(E) The lowest price among the following price: $34.99, $29.95, and $31.50
-print("$",min(34.99, 29.95,31.50))
+print(min(34.99, 29.95,31.50))
 #(F) The absolute value of the difference between Sara’s height(54 inces) and Mark’s height(57 inches)
 
 #(G)The sum of 2 and 2 is less than 4
