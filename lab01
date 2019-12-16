@@ -84,3 +84,133 @@ print(min(-10,-85,88,-111)) #-111
 #No.21(max(12,26,5,26.5,3.5))
 print(max(12,26,5,26.5,3.5)) #26.5
 print(max(5,8,5.2,69,99)) #99
+
+'''Practice Problem1 Write Python algebraic expressions corresponding to the following statements:'''
+#(A) The sum of the first five positive integers
+print(1+2+3+4+5)
+#(B) The average age of Sara (age 23), Mark (age 19), and Fatima (age 31)
+#คิดเอง 
+#(C) The remainder when 403 is divided by 73
+print(403%73)
+#(D) 2 to 10th Power
+print(2**10)
+#(E) The lowest price among the following price: $34.99, $29.95, and $31.50
+print("$",min(34.99, 29.95,31.50))
+#(F) The absolute value of the difference between Sara’s height(54 inces) and Mark’s height(57 inches)
+hight = 54-57
+print(abs(hight),"inches")
+#(G)The sum of 2 and 2 is less than 4
+sum1 = 2+2
+print("Sum1 is",sum1)
+if sum1 < 4 :
+    print("TRUE")
+else:
+    print("False")
+#(H) The value of 7 // 3 is equal to 1+1
+han = 7//3
+eq = 1+1
+print("han is",han,"eq is",eq)
+if han == eq :
+    print("TRUE")
+else:
+    print("False")
+#(I) The sum of 2, 4 and 6 is greater than 12
+sum2 = 2+4+6
+if sum2 > 12 :
+    print("TRUE")
+else:
+    print("False",sum2)
+#(J)The lowest price among $34.99, $29.95, and $31.50 is less than $30.00
+minp = min(34.99,29.95,31.50)
+print("min is",minp)
+if minp < 30.00 :
+    print("TRUE")
+else:
+    print("Flase")
+'''Setting the Data Type'''
+#No.1 X = "Hello World"
+x1 = "Hello World"
+print(type(x1))
+#No.2 X = 20
+x2 = 20
+print(type(x2))
+#No.3 X = Ij
+x3 = 1j
+print(type(x3))
+#No.4 X = [“apple”,”banana”,”cherry”]
+x4 = ["apple","banana","cherry"]
+print(type(x4))
+#No.5 X = ("apple","banana","cherry")
+x5 = ("apple","banana","cherry")
+print(type(x5))
+#No.6 X = range(6)
+x6 = range(6)
+print(type(x6))
+#No.7 X = {"name":"John","age":36}
+x7 = {"name":"John","age":36}
+print(type(x7))
+#No.8 X = frozenset({"apple","banana","cherry"})
+x8 = frozenset({"apple","banana","cherry"})
+print(type(x8))
+# No.9 X=True
+x9 = True
+print(type(x9))
+#No.10 X = B"Hello"
+x10 = b"hello"
+print(type(x10))
+#No.11  X = bytearray(5)
+x11 = bytearray(5)
+print(type(x11))
+#No.12 X = memoryview(bytes(5))
+x12 = memoryview(bytes(5))
+print(type(x12))
+#No.13 X = 20.5
+x13 = 20.5
+print(type(x13))
+
+
+
+
+
+'''Setting the Specific Data Type'''
+#No.1 X = "Hello World"
+xx1 = str("Hello World")
+print(type(xx1))
+#No.2 X = 20
+xx2 = int(20)
+print(type(xx2))
+#No.3  X = float(20.5)
+o10 = float(20.5)
+print(type(o10))
+#No.4 X = Ij
+xx3 = complex(1j)
+print(type(x3))
+#No.5 X =list(([“apple”,”banana”,”cherry”))
+xx4 = list(("apple","banana","cherry"))
+print(type(xx4))
+#No.6 X = tuple(("apple","banana","cherry"))
+xx5 = tuple(("apple","banana","cherry"))
+print(type(xx5))
+#No.7 X = range(6)
+xx6 = range(6)
+print(type(xx6))
+#No.8 X = dict("name":"John","age":36)
+xx7 = dict(name="John",age=36)
+print(type(xx7))
+#No.9 X = frozenset(("apple","banana","cherry"))
+xx8 = frozenset(("apple","banana","cherry"))
+print(type(xx8))
+# No.10 x=bool(5)
+xx9 = bool(5)
+print(type(xx9))
+#No.11 X = bytes(5)
+xx10 = bytes(5)
+print(type(xx10))
+#No.12  X = bytearray(5)
+xx11 = bytearray(5)
+print(type(xx11))
+#No.13 X = memoryview(bytes(5))
+xx12 = memoryview(bytes(5))
+print(type(xx12))
+
+'''Siwadol Malisorn DM6201 116210806017-6 No.12 / Siwadol's Hell END'''
